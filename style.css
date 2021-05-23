@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Libre Franklin", sans-serif;
+  align-items: center;
+  color: #969696;
+  min-height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.logo {
+  width: 70px;
+}
+
+h1 {
+  margin: 0.8em 0;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #151f29;
+}
+
+#fat {
+  font-weight: 700;
+  color: #151f29;
+}
+
+.sub {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  width: 80vw;
+}
+
+input {
+  border: 1px solid #c2d3ff;
+  border-radius: 20px;
+  height: 3em;
+  margin-bottom: 1em;
+  padding-left: 3em;
+  color: #c2d3ff;
+}
+
+::placeholder {
+  color: #c2d3ff;
+}
+
+button {
+  border: 0;
+  background-color: #4f7df3;
+  color: white;
+  border-radius: 20px;
+  height: 3em;
+}
+
+#dashboard {
+  margin: 1em;
+  width: 90vw;
+  max-height: 300px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin: 0.5em;
+  background-color: white;
+  border: 1px solid #c2d3ff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+i {
+  color: #4f7df3;
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    margin-bottom: 0.5em;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0.5em;
+  }
+
+  .sub {
+    margin: 1em 0;
+    flex-direction: row;
+    width: 50vw;
+    max-width: 600px;
+  }
+
+  input {
+    width: 70%;
+    margin-right: 10px;
+  }
+
+  button {
+    width: 30%;
+  }
+
+  #dashboard {
+    width: 50vw;
+    margin: 0;
+    max-width: 600px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
